@@ -1,10 +1,12 @@
+import { About } from "./sections/About"
+import { Banner } from "./sections/Banner"
+
 function App() {
 
   return (
     <>
-      <div>
-        <h1>Olá mundão!</h1>
-      </div>
+      <Banner />
+      <About />
     </>
   )
 }
