@@ -3,7 +3,7 @@ import Background from "../../assets/backAbout.png";
 
 export const About = () => {
     return (
-        <section style={{backgroundImage: `url(${Background})`,backgroundSize: "cover", display: "flex", height: "331px"}}>
+        <section style={{ backgroundImage: `url(${Background})`, backgroundSize: "cover", display: "flex", height: "331px", margin: "none" }}>
             <div>
                 <img src={Logo} />
             </div>
