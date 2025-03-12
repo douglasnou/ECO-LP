@@ -1,5 +1,6 @@
 import { About } from "./sections/About"
 import { Banner } from "./sections/Banner"
+import { Reasons } from "./sections/Reasons"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Banner />
       <About />
+      <Reasons />
     </>
   )
 }
