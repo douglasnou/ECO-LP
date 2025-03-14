@@ -1,21 +1,50 @@
-import { EcoItems } from "../../Arrays/Items"
+import { EcoItems } from "../../Arrays/Items";
+import styled from "./style.module.scss";
+
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/scss";
+import 'swiper/scss/navigation';
+import 'swiper/scss/pagination';
+import 'swiper/scss/scrollbar';
+import 'swiper/scss/autoplay';
+import { EcovilleSlide } from "../../Arrays/EcoCasa";
 
 export const EcoVille = () => {
     return (
-        <section>
-            <div>
+        <section className={styled.Ecoville}>
+            <div className={styled.Container}>
                 <ul>
                     {
-                        EcoItems.map((item)=>(
+                        EcoItems.map((item) => (
                             <li>
-                                <p>{item.text}</p>
+                                <p className="ecoville-item">{item.text}</p>
                             </li>
                         ))
                     }
                 </ul>
             </div>
-            <div>
-                CARROSSEL
+            <div className={styled.Slide}>
+                <Swiper
+                    modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    navigation
+                    autoplay
+                    pagination={{ clickable: true }}
+                    scrollbar={{ draggable: true }}
+                    onSwiper={(swiper) => console.log(swiper)}
+                    onSlideChange={() => console.log('slide change')}
+                >
+                    {
+                        EcovilleSlide.map((slide) => (
+                            <SwiperSlide>
+                                <img src={slide} />
+                            </SwiperSlide>
+                        ))
+                    }
+                </Swiper>
             </div>
         </section>
     )

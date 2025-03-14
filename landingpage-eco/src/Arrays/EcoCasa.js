@@ -15,6 +15,16 @@ import Slide7 from "../assets/Slide7.png";
 import Slide8 from "../assets/Slide8.png";
 import Slide9 from "../assets/Slide9.png";
 
+import Image1 from "../assets/01.png";
+import Image2 from "../assets/02.png";
+import Image3 from "../assets/03.png";
+import Image4 from "../assets/04.png";
+import Image5 from "../assets/05.png";
+import Image6 from "../assets/06.png";
+import Image7 from "../assets/07.png";
+import Image8 from "../assets/08.png";
+import Image9 from "../assets/09.png";
+
 export const EcoCasaSmall = [
     {
         icon: IconOne,
@@ -72,3 +82,5 @@ export const EcoCasaBig = [
 ]
 
 export const EcoCasaSlide = [Slide1, Slide2, Slide3, Slide4, Slide5, Slide6, Slide7, Slide8, Slide9]
+
+export const EcovilleSlide = [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, Image9]
