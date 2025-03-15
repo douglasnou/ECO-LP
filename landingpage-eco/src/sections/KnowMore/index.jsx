@@ -4,6 +4,12 @@ import WhatsApp from "../../assets/whatsapp-big.png";
 import styled from "./style.module.scss";
 
 export const KnowMore = () => {
+    const videoId = ["1Dpz6HT__vyGFzYV6vtK_acXVwAb1XIpC", "1QwvyMF7ht66Pg1xTFkDgPKovE2GczmvL", "1l-OouYZE59x-dWoX-dTtjtslXs5blA9Q"];
+    const videoLinkOne = `https://drive.google.com/file/d/${videoId[0]}/preview`;
+    const videoLinkTwo = `https://drive.google.com/file/d/${videoId[1]}/preview`;
+    const videoLinkThree = `https://drive.google.com/file/d/${videoId[2]}/preview`;
+
+
     return (
         <section className={styled.KnowMore}>
             <div className={styled.Head}>
@@ -12,7 +18,27 @@ export const KnowMore = () => {
 
             <div className={styled.Container}>
                 <div className={styled.Videos}>
-                    Videos
+                    <iframe
+                    src={videoLinkOne}
+                    width={170}
+                    height={300}
+                    allow="autoplay"
+                    title="Casas entregues"
+                    ></iframe>
+
+                    <iframe
+                    src={videoLinkTwo}
+                    width={170}
+                    height={300}
+                    allow="autoplay"
+                    title="Casas entregues"></iframe>
+
+<iframe
+                    src={videoLinkThree}
+                    width={170}
+                    height={300}
+                    allow="autoplay"
+                    title="Casas entregues"></iframe>
                 </div>
                 <div className={styled.Logos}>
                     <img src={Logo} />

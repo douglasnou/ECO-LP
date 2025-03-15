@@ -1,14 +1,26 @@
+import YouTube from "react-youtube";
 import styled from "./style.module.scss";
+import { Autoplay } from "swiper/modules";
 
 export const SecondDetail = () => {
+
+    const videoId = "3U9VYUYj3ag";
+    const opts = {
+        height:"344",
+        width: "720",
+        playerVars: {
+            autoplay: 1,
+        },
+    };
+
     return (
         <section className={styled.Detail}>
             <h2 className="secondDetail-title">
                 VEJA CADA DETALHE DA SUA NOVA CASA!
             </h2>
-            <video>
-                Video
-            </video>
+            <div>
+                <YouTube videoId={videoId} opts={opts}/>
+            </div>
         </section>
     )
 }

@@ -17,6 +17,19 @@
         align-items: center;
         background: var(--green-tone-3);
 
+        .Videos{
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            iframe{
+                border: none;
+                margin: 0 5px;
+            }
+        }
+
         .Logos{
             width: 80%;
             display: flex;
