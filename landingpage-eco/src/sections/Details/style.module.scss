@@ -30,3 +30,19 @@
         }
     }
 }
+
+@media(max-width: 600px){
+    .Details{
+        div{
+            h1{
+                width: 100%;
+                text-align: left;
+            }
+
+            p{
+                width: 100%;
+                text-align: left;
+            }
+        }
+    }
+}

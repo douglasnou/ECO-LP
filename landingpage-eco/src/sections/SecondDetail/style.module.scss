@@ -8,4 +8,10 @@
     background: url("../../assets//back-detail-2.png");
     background-repeat: no-repeat;
     background-size: cover;
+
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }

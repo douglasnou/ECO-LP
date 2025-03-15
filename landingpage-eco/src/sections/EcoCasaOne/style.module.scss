@@ -10,8 +10,13 @@
         width: 90%;
         margin: 50px auto;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+
+        .Img{
+            width: 50%;
+        }
         .Container {
             width: 50%;
             display: flex;
@@ -46,6 +51,19 @@
 
                     }
                 }
+            }
+        }
+    }
+}
+@media (max-width: 600px){
+    .EcoCasa{
+        .SubSection{
+            .Img{
+                width: 100%;
+            }
+
+            .Container{
+                width: 100%;
             }
         }
     }

@@ -23,7 +23,7 @@ export const EcoCasaTwo = () => {
                         </ul>
                     </div>
                 </div>
-                <img src={EcoCasa} />
+                <img className={styled.Img} src={EcoCasa} />
             </div>
         </section>
     )

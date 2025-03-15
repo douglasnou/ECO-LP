@@ -8,6 +8,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    .ImgOne{
+        width: 50%;
+    }
+
+    .ImgTwo{
+        width: 40%;
+    }
+
     h1{
         margin: 20px auto;
     }
@@ -38,6 +46,14 @@
         &:hover{
             background: linear-gradient(var(--green-tone-gradient-2), var(--green-tone-gradient));
 
+        }
+    }
+}
+
+@media(max-width: 600px){
+    .Banner{
+        .ImgOne, .ImgTwo{
+            width: 80%;
         }
     }
 }

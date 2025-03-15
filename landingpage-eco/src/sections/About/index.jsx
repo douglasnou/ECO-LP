@@ -4,11 +4,11 @@ import styled from "./style.module.scss";
 export const About = () => {
     return (
         <section className={styled.About}>
-            <div>
+            <div className={styled.Logo}>
                 <img src={Logo} />
             </div>
 
-            <div>
+            <div className={styled.Text}>
                 <article>
                     <p className={`about-text`}>
                         A Eco Casa é um produto da Eco Urbanismo com opções de 50m² e 70m².

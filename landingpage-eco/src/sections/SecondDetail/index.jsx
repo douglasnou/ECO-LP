@@ -7,7 +7,7 @@ export const SecondDetail = () => {
     const videoId = "3U9VYUYj3ag";
     const opts = {
         height:"344",
-        width: "720",
+        width: "60%",
         playerVars: {
             autoplay: 1,
         },
@@ -19,7 +19,7 @@ export const SecondDetail = () => {
                 VEJA CADA DETALHE DA SUA NOVA CASA!
             </h2>
             <div>
-                <YouTube videoId={videoId} opts={opts}/>
+                <YouTube className={styled.Video} videoId={videoId} opts={opts}/>
             </div>
         </section>
     )

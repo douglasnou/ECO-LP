@@ -24,7 +24,7 @@ export const EcoCasaOne = () => {
                     </div>
                 </div>
 
-                <img src={EcoCasa} />
+                <img className={styled.Img} src={EcoCasa} />
             </div>
         </section>
     )

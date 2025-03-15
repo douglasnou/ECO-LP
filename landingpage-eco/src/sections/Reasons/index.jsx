@@ -25,7 +25,7 @@ export const Reasons = () => {
                         <div className={styled.Line}></div>
                     </div>
 
-                    <div>
+                    <div className={styled.List}>
                         <ul>
                             {
                                 Items.map((Item) => (
@@ -47,7 +47,6 @@ export const Reasons = () => {
                 </div>
                 <div className={`${styled.ContainerCarrossel}`}>
                     <Swiper
-                        // install Swiper modules
                         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                         spaceBetween={50}
                         slidesPerView={1}
