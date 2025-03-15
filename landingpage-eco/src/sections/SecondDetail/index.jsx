@@ -7,7 +7,7 @@ export const SecondDetail = () => {
     const videoId = "3U9VYUYj3ag";
     const opts = {
         height:"344",
-        width: "60%",
+        width: "100%",
         playerVars: {
             autoplay: 1,
         },

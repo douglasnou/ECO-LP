@@ -10,8 +10,15 @@
     background-size: cover;
 
     div{
-        width: 100%;
+        width: 70%;
         display: flex;
         justify-content: center;
+    }
+}
+@media(max-width: 600px){
+    .Detail{
+        div{
+            width: 95%;
+        }
     }
 }

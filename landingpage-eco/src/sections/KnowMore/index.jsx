@@ -20,23 +20,17 @@ export const KnowMore = () => {
                 <div className={styled.Videos}>
                     <iframe
                     src={videoLinkOne}
-                    width={170}
-                    height={300}
                     allow="autoplay"
                     title="Casas entregues"
                     ></iframe>
 
                     <iframe
                     src={videoLinkTwo}
-                    width={170}
-                    height={300}
                     allow="autoplay"
                     title="Casas entregues"></iframe>
 
-<iframe
+                    <iframe
                     src={videoLinkThree}
-                    width={170}
-                    height={300}
                     allow="autoplay"
                     title="Casas entregues"></iframe>
                 </div>

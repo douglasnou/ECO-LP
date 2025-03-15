@@ -1,4 +1,4 @@
-import MaranhaoImg from "../../assets/Maranhao.png";
+import MaranhaoImg from "../../assets/Maranhaoo.png";
 import Ecoville from "../../assets/Ecovilles.png";
 import styled from "./style.module.scss";
 
@@ -16,7 +16,7 @@ export const Maranhao = () => {
                         Empresa <strong>genuinamente maranhense</strong>, é a responsável pela idealização, planejamento e construção dos Ecovilles em 9 cidades ao longo do Maranhão.
                         Temos no nosso DNA o <strong>compromisso e qualidade</strong> na entrega bairros planejados com a infraestrutura necessária pra manter sua qualidade de vida de acordo com o que <strong>você merece</strong>.
                     </p>
-                    <img src={Ecoville} />
+                    <img className={styled.Ecovilles} src={Ecoville} />
                 </div>
             </div>
         </section>

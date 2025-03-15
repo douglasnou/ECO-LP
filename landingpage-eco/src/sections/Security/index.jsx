@@ -1,4 +1,5 @@
 import Shield from "../../assets/Shield.png";
+import Family from "../../assets/back-security-small.png"
 import styled from "./style.module.scss";
 
 export const Security = () => {
@@ -15,6 +16,7 @@ export const Security = () => {
                     <strong>Viva com a tranquilidade que você merece!</strong>
                 </p>
             </div>
+            <img className={styled.Img} src={Family} />
         </section>
     )
 }
