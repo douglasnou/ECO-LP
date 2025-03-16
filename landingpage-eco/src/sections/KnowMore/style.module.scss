@@ -87,11 +87,13 @@
 
         .Container {
             .Videos {
+                width: 75%;
+                overflow: hidden;
+
                 iframe {
                     width: 100%;
                     margin: 20px auto;
-                    transform: scale(1);
-                    overflow: hidden;
+                    object-fit: fill;
                 }
             }
 
