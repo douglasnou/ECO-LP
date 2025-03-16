@@ -42,7 +42,7 @@ export const KnowMore = () => {
                 >
                     <div>
                         <img src={WhatsApp} />
-                        <p className="knowmore-btn">SAIBA MAIS <span>AQUI</span></p>
+                        <p className="knowmore-btn">COMPRE SUA CASA <span>AGORA!</span></p>
                     </div>
                 </a>
             </div>
