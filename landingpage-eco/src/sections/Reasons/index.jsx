@@ -40,7 +40,7 @@ export const Reasons = () => {
                         >
                             <div>
                                 <img src={WhatsApp} />
-                                <p className="reasons-btn">SUA CASA PRÓPRIA AQUI!</p>
+                                <p className="reasons-btn">COMPRE SUA CASA AGORA!</p>
                             </div>
                         </a>
                     </div>

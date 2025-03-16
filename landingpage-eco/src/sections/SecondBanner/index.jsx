@@ -15,7 +15,7 @@ export const SecondBanner = () => {
             >
                 <div>
                     <img src={WhatsApp} />
-                    <p className="secondBanner-btn">SUA CASA PRÓPRIA AQUI!</p>
+                    <p className="secondBanner-btn">COMPRE SUA CASA AGORA!</p>
                 </div>
             </a>
         </section>
