@@ -1,6 +1,5 @@
 import YouTube from "react-youtube";
 import styled from "./style.module.scss";
-import { Autoplay } from "swiper/modules";
 
 export const SecondDetail = () => {
 
@@ -10,6 +9,7 @@ export const SecondDetail = () => {
         width: "100%",
         playerVars: {
             autoplay: 1,
+            mute:1,
         },
     };
 
