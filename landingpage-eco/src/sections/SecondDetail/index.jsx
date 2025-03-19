@@ -3,13 +3,12 @@ import styled from "./style.module.scss";
 
 export const SecondDetail = () => {
 
-    const videoId = "3U9VYUYj3ag";
+    const videoId = "NCLAOKpPE04";
     const opts = {
         height:"344",
         width: "100%",
         playerVars: {
             autoplay: 1,
-            mute:1,
         },
     };
 
