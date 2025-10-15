@@ -11,7 +11,7 @@ export const SecondBanner = () => {
             </h1>
             <img className={styled.ImgOne} src={Banner1} />
             <img className={styled.ImgTwo} src={Banner2} />
-            <a target="blank" href="https://wa.me/5598985243214?text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20a%20Eco%20Casa%20Lago%20da%20Pedra!"
+            <a target="blank" href="https://wa.me/5598985243214?text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20a%20Eco%20Casa%20Coroatá"
             >
                 <div>
                     <img src={WhatsApp} />
